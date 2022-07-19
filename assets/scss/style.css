@@ -1,0 +1,723 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  -webkit-box-shadow: 0 0 14px #cbcbcb;
+          box-shadow: 0 0 14px #cbcbcb;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  background-color: #fff;
+}
+
+header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80vw;
+  height: 100%;
+  margin: 0 auto;
+}
+
+header .container .menu-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2.7rem;
+}
+
+header .container .menu-header .logo img {
+  width: 102px;
+  height: 38px;
+}
+
+header .container .menu-header ul {
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1.5rem;
+}
+
+header .container .menu-header ul li {
+  list-style: none;
+}
+
+header .container .menu-header ul li a {
+  color: #3d3b3b;
+  text-decoration: none;
+  font-size: 17.6px;
+  font-weight: 500;
+}
+
+header .container .menu-header ul li a:hover {
+  color: #2d4faa;
+}
+
+header .flag-register {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+
+header .flag-register .langs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .flag-register .langs:hover {
+  background-color: none;
+}
+
+header .flag-register .langs a {
+  color: #3d3b3b;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+header .flag-register .moon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+header .flag-register .moon:hover {
+  background-color: #f5f5f5;
+}
+
+header .flag-register button {
+  border: none;
+  background-color: transparent;
+}
+
+header .flag-register button:hover {
+  background-color: #f5f8fc;
+}
+
+header .flag-register button a {
+  text-decoration: none;
+}
+
+header .flag-register button i {
+  font-size: 21px;
+  color: #3d3b3b;
+}
+
+header .flag-register .login-register {
+  color: #174da1;
+  border: 1px solid #0549aa;
+  padding: 5px 15px;
+  border-radius: 50px;
+  width: 100px;
+}
+
+header .flag-register .login-register a {
+  font-weight: 700;
+}
+
+header .flag-register .hamburger {
+  display: none;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+header .flag-register .hamburger:hover {
+  background-color: #e2e2e2;
+}
+
+header .flag-register .hamburger i {
+  font-size: 20px;
+  color: gray;
+}
+
+#head .imghead1 {
+  height: 480px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  margin-left: 64px;
+  border-radius: 60px;
+  pointer-events: none;
+  border-bottom-right-radius: 0;
+}
+
+#head .imghead1 img {
+  border-radius: 50px;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-bottom-right-radius: 0;
+}
+
+#head .head1 {
+  margin-top: 20px;
+}
+
+#head .head1 .starter-search {
+  width: 100%;
+  border: 1px solid #e1e1e1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px 5px 5px 20px;
+  border-radius: 32px;
+  margin-top: 25px;
+}
+
+#head .head1 .starter-search input {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 0 10px;
+  font-size: 17px;
+}
+
+#head .head1 .starter-search input::-webkit-input-placeholder {
+  color: #b0aeae;
+}
+
+#head .head1 .starter-search input:-ms-input-placeholder {
+  color: #b0aeae;
+}
+
+#head .head1 .starter-search input::-ms-input-placeholder {
+  color: #b0aeae;
+}
+
+#head .head1 .starter-search input::placeholder {
+  color: #b0aeae;
+}
+
+#head .head1 .starter-search button {
+  padding: 15px 50px;
+  border-radius: 32px;
+  background-color: #0549aa;
+  color: #fff;
+  border: none;
+}
+
+#head .head1 .starter-count {
+  margin-top: 8rem;
+}
+
+#head .head1 .starter-count ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 50px;
+}
+
+#head .head1 .starter-count ul li {
+  list-style: none;
+}
+
+#head .head1 .starter-count ul li span {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+#head .head1 .starter-count ul li:nth-child(2) {
+  border-left: 1px solid #b9b9b9;
+  border-right: 1px solid #b9b9b9;
+  padding: 0 30px;
+}
+
+#head .head1 h1 {
+  font-size: 55px;
+  font-weight: bold;
+}
+
+#head .head1 p {
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+#choosed-vacation .container .cards .card-item {
+  border-radius: 10px;
+  padding: 8px;
+  width: 32%;
+  margin: 6px;
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#choosed-vacation .container .cards .card-item:hover {
+  border: 0.3px solid #d4cccc;
+}
+
+#choosed-vacation .container .cards .card-item .head .img {
+  width: 83px;
+  text-align: center;
+}
+
+#choosed-vacation .container .cards .card-item .head .img img {
+  width: 100%;
+  padding: 5px;
+  border: 0.5px solid #d0cfcf;
+  border-radius: 5px;
+}
+
+#choosed-vacation .container .cards .card-item .head .title h5 {
+  margin: 0;
+  font-size: 17px;
+}
+
+#choosed-vacation .container .cards .card-item .head .title a {
+  text-decoration: none;
+  color: black;
+}
+
+#choosed-vacation .container .cards .card-item .head .icon a {
+  color: grey;
+  font-size: 20px;
+}
+
+#choosed-vacation .container .cards .card-item .main ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+#choosed-vacation .container .cards .card-item .main ul li {
+  list-style-type: none;
+  margin: 0 3px 0 3px;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+#choosed-vacation .container .cards .card-item .main ul li i {
+  padding-right: 5px;
+}
+
+#choosed-vacation .container .cards .card-item .main ul li a {
+  text-decoration: none;
+}
+
+#choosed-vacation .container .cards .card-item .main ul .main-1 {
+  background-color: #e9f5ea;
+  padding: 8px 10px;
+  border-radius: 3px;
+}
+
+#choosed-vacation .container .cards .card-item .main ul .main-1 a {
+  color: #4caf50;
+}
+
+#choosed-vacation .container .cards .card-item .main ul .main-2 {
+  background-color: #fff2e0;
+  padding: 8px 10px;
+  border-radius: 3px;
+}
+
+#choosed-vacation .container .cards .card-item .main ul .main-2 a {
+  color: #ff9800;
+}
+
+#choosed-vacation .container .cards .card-item .main ul .main-3 {
+  background-color: #e4f2fe;
+  padding: 8px 10px;
+  border-radius: 3px;
+}
+
+#choosed-vacation .container .cards .card-item .main ul .main-3 a {
+  color: #2196f3;
+}
+
+#choosed-vacation .container .cards .card-item .main ul .main-4 {
+  background-color: #f3e5f5;
+  padding: 5px 8px;
+  border-radius: 3px;
+}
+
+#choosed-vacation .container .cards .card-item .main ul .main-4 a {
+  color: #af30b0;
+}
+
+#choosed-vacation .container .cards .card-item .end span a {
+  color: black;
+  text-decoration: none;
+}
+
+#choosed-vacation .container .choosed-vacation-show {
+  text-align: center;
+}
+
+#choosed-vacation .container .choosed-vacation-show button {
+  padding: 7px;
+  border: 0.5px solid #3a6ec3;
+  border-radius: 22px;
+  background-color: inherit;
+}
+
+#choosed-vacation .container .choosed-vacation-show button:hover {
+  background-color: rgba(210, 210, 210, 0.591);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+#choosed-vacation .container .choosed-vacation-show button a {
+  text-decoration: none;
+  color: #4570b7;
+}
+
+#popular-vacation .title-popular {
+  text-align: center;
+}
+
+#popular-vacation .other-card {
+  padding: 15px;
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 8px;
+}
+
+#popular-vacation .other-card:hover {
+  border: 0.3px solid #d4cccc;
+}
+
+#popular-vacation .other-card .popular-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.7rem;
+}
+
+#popular-vacation .other-card .popular-card .subtitle-popular h5 {
+  font-size: 17px;
+}
+
+#popular-vacation .other-card .popular-card .popular-image svg {
+  width: 50px !important;
+  height: 50px !important;
+  background-color: #fef4f4 !important;
+  padding: 0px 10px;
+  background-color: #e2e2e2;
+  border-radius: 50%;
+  color: #f46e6e;
+}
+
+#popular-vacation .other-card .popular-card .popular-image-2 svg {
+  width: 50px !important;
+  height: 50px !important;
+  background-color: #f1f8fe !important;
+  padding: 0px 10px;
+  border-radius: 50%;
+  color: #49a3f6;
+}
+
+#popular-vacation .other-card .popular-card .popular-image-3 svg {
+  width: 50px !important;
+  height: 50px !important;
+  background-color: #f1fbfe !important;
+  padding: 0px 10px;
+  border-radius: 50%;
+  color: #49ccf6;
+}
+
+#popular-vacation .other-card .popular-card .popular-image-4 svg {
+  width: 50px !important;
+  height: 50px !important;
+  background-color: #fef9f1 !important;
+  padding: 0px 10px;
+  border-radius: 50%;
+  color: #f4ad49;
+}
+
+#popular-vacation .other-card .popular-card .popular-image-5 svg {
+  width: 50px !important;
+  height: 50px !important;
+  background-color: #f9f5ff !important;
+  padding: 0px 10px;
+  border-radius: 50%;
+  color: #b67ffd;
+}
+
+#popular-vacation .other-card .popular-card .popular-image-6 svg {
+  width: 50px !important;
+  height: 50px !important;
+  background-color: #fbecfc !important;
+  padding: 0px 10px;
+  border-radius: 50%;
+  color: #c90cd7;
+}
+
+#popular-vacation .other-card .popular-card .popular-image-7 svg {
+  width: 50px !important;
+  height: 50px !important;
+  background-color: #ecf8f4 !important;
+  padding: 0px 10px;
+  border-radius: 50%;
+  color: #0ea76f;
+}
+
+#popular-vacation .other-card .popular-card .popular-image-8 svg {
+  width: 50px !important;
+  height: 50px !important;
+  background-color: #eff5fb !important;
+  padding: 0px 10px;
+  border-radius: 50%;
+  color: #3482d2;
+}
+
+#popular-vacation .other-card .popular-card .subtitle-popular a {
+  text-decoration: none;
+  color: black;
+}
+
+#popular-vacation .other-card .popular-card .popular-subtitle {
+  color: #a5a1a1;
+}
+
+#new-vacation .container .cards .card-item {
+  border-radius: 10px;
+  padding: 8px;
+  width: 32%;
+  margin: 6px;
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#new-vacation .container .cards .card-item:hover {
+  border: 0.3px solid #d4cccc;
+}
+
+#new-vacation .container .cards .card-item .head .img {
+  width: 83px;
+  text-align: center;
+}
+
+#new-vacation .container .cards .card-item .head .img img {
+  width: 100%;
+  padding: 5px;
+  border: 0.5px solid #d0cfcf;
+  border-radius: 5px;
+}
+
+#new-vacation .container .cards .card-item .head .title h5 {
+  margin: 0;
+  font-size: 17px;
+}
+
+#new-vacation .container .cards .card-item .head .title a {
+  text-decoration: none;
+  color: black;
+}
+
+#new-vacation .container .cards .card-item .head .icon a {
+  color: grey;
+  font-size: 20px;
+}
+
+#new-vacation .container .cards .card-item .main ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+#new-vacation .container .cards .card-item .main ul li {
+  list-style-type: none;
+  margin: 0 3px 0 3px;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+#new-vacation .container .cards .card-item .main ul li i {
+  padding-right: 5px;
+}
+
+#new-vacation .container .cards .card-item .main ul li a {
+  text-decoration: none;
+}
+
+#new-vacation .container .cards .card-item .main ul .main-1 {
+  background-color: #e9f5ea;
+  padding: 8px 10px;
+  border-radius: 3px;
+}
+
+#new-vacation .container .cards .card-item .main ul .main-1 a {
+  color: #4caf50;
+}
+
+#new-vacation .container .cards .card-item .main ul .main-2 {
+  background-color: #fff2e0;
+  padding: 8px 10px;
+  border-radius: 3px;
+}
+
+#new-vacation .container .cards .card-item .main ul .main-2 a {
+  color: #ff9800;
+}
+
+#new-vacation .container .cards .card-item .main ul .main-3 {
+  background-color: #e4f2fe;
+  padding: 8px 10px;
+  border-radius: 3px;
+}
+
+#new-vacation .container .cards .card-item .main ul .main-3 a {
+  color: #2196f3;
+}
+
+#new-vacation .container .cards .card-item .main ul .main-4 {
+  background-color: #f3e5f5;
+  padding: 8px 10px;
+  border-radius: 3px;
+}
+
+#new-vacation .container .cards .card-item .main ul .main-4 a {
+  color: #af30b0;
+}
+
+#new-vacation .container .cards .card-item .end span a {
+  color: black;
+  text-decoration: none;
+}
+
+#new-vacation .container .new-vacation-show {
+  text-align: center;
+}
+
+#new-vacation .container .new-vacation-show button {
+  padding: 7px;
+  border: 0.5px solid #3a6ec3;
+  border-radius: 22px;
+  background-color: inherit;
+}
+
+#new-vacation .container .new-vacation-show button:hover {
+  background-color: rgba(210, 210, 210, 0.591);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+#new-vacation .container .new-vacation-show button a {
+  text-decoration: none;
+  color: #4570b7;
+}
+
+footer #lists {
+  border-bottom: 1px solid #aeaeae;
+}
+
+footer #lists .list {
+  width: 100%;
+}
+
+footer #lists .list ul p {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+footer #lists .list ul li {
+  list-style: none;
+}
+
+footer #lists .list ul li a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+footer #lists2 {
+  height: 120px;
+  width: 100%;
+}
+
+footer #lists2 .logo1 img {
+  width: 80px;
+  height: 80px;
+}
+
+footer #lists2 .logo1 span {
+  font-size: 14px;
+}
+
+footer #lists2 .icons1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer #lists2 .icons1 ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+}
+
+footer #lists2 .icons1 ul li {
+  list-style: none;
+}
+
+footer #lists2 .icons1 ul li a {
+  color: rgba(0, 0, 0, 0.605);
+  text-decoration: none;
+}
+
+footer #lists2 .icons1 ul li a i {
+  font-size: 1.2rem;
+}
+/*# sourceMappingURL=style.css.map */
